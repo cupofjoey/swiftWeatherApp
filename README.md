@@ -6,3 +6,5 @@ URL he wanted us to use, and then had us use the text field to inject the name o
 * It's a bit weird, it gets really long in the tooth with 'if let' statements, and I'd much rather learn API's with Swift than going into
 the XML of Info.plist and adding keys for websites. Teach us how to do the regex, you know?
 * Anyway, it is what it is, and if you'd like to change anything, please feel free to do so. 
+
+![weather](https://cloud.githubusercontent.com/assets/2258709/24474717/857cf9d4-149b-11e7-8ee7-ba12daf11b86.png)
