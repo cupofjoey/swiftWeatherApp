@@ -38,7 +38,7 @@ class ViewController: UIViewController {
                     
                     let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
                     
-                    var stringSeparator = "Weather Forecast Summary:</b><span class=\"read-more-small\"><span class =\"read-more-content\"> <span class=\"phrase\">"
+                    var stringSeparator = "Weather Forecast Summary:</b><span class=\"read-more-small\"><span class=\"read-more-content\"> <span class=\"phrase\">"
                     
                     if let contentArray = dataString?.components(separatedBy: stringSeparator) {
                         if contentArray.count > 1 {
@@ -48,9 +48,9 @@ class ViewController: UIViewController {
                             
                             if newContentArray.count > 1 {
                                 
-                                message = newContentArray[0].replacingOccurrences(of: "&deg", with: "°")
+                                message = newContentArray[0].replacingOccurrences(of: "&deg;", with: "°")
                                 
-                                print(newContentArray[0])
+                                print(message)
                                 
                             }
                             
