@@ -56,7 +56,7 @@
                                     <action selector="getWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5o-fT-IU5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jws-YH-rsE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jws-YH-rsE">
                                 <rect key="frame" x="16" y="211" width="343" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="GQ8-Iv-qdR"/>
